@@ -1,0 +1,26 @@
+.skill-group {
+    display: flex;
+    column-gap: 20px;
+}
+
+#project-title {
+    font-size: 50px;
+    color: black;
+    padding-bottom: 5px;
+    font-weight: 200px;
+}
+
+#project-description {
+    font-size: 20px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.project-information {
+    margin-left: auto;
+    font-family: 'Tahoma';
+}
+
+a:visited{
+    color: black;
+}

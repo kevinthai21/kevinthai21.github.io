@@ -1,0 +1,7 @@
+#navigation {
+    column-gap: 20px;   
+}
+
+a:visited {
+    color: black;
+}
