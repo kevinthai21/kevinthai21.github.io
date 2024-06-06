@@ -1,5 +1,5 @@
-import Skill from './Skills';
 import '../css/Project.css'
+import { createSkillsComponent } from '../helpers/helper_functions';
 
 interface ProjectProps{
     title: string;
@@ -20,11 +20,7 @@ const Project: React.FC<ProjectProps> = ({
     const titleString = (link !== undefined) ? `${title} ↗`: title
     const titleComponent = (link == undefined) ? <div>{titleString}</div> : <div><a href={link}>{titleString}</a></div>
 
-    const skillsComponent = <div className='skill-group'>
-        {skills?.map((skill, _) => (
-            <Skill text={skill} />
-        ))}
-    </div>
+    const skillsComponent = createSkillsComponent(skills);
 
     return (
         <div
