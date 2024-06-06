@@ -3314,3 +3314,9 @@ input, select, textarea {
 			}
 
 	}
+
+.project-status{
+	font-weight: bold;
+	font-size: 15px;
+	color: #FFA500;
+}
