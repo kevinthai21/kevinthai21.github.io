@@ -147,7 +147,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.75em;
 		line-height: 1.5em;
 	}
 
@@ -1786,7 +1786,7 @@ input, select, textarea {
 
 	header.major h2 {
 		color: #4a72ca;
-		font-size: 3.5em;
+		font-size: 2.0em;
 	}
 
 		header.major h2 + p {
